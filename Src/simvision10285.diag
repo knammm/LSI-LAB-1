@@ -1,0 +1,1177 @@
+*** Message Type: info ***
+When: Sat Feb 24 04:34:43 PM +07 2024
+SimVision started.
+Version: TOOL:  simvision(64)   20.03-s010
+User: cc02group5
+Host: localhost
+Platform: Linux/x86_64/3.10.0-1160.80.1.el7.x86_64
+Started: Sat Feb 24 04:34:43 PM +07 2024
+Command: /home/share_file/cadence/installs/XCELIUM2003/tools.lnx86/simvision/bin/64bit/simvision.exe -64
+Work Directory: /data/vlsi2022/cc02group5/2153599/work/simulation_env
+ 
+*** Message Type: info ***
+When: Sat Feb 24 04:34:45 PM +07 2024
+Create waveform window: "Waveform 1"
+ 
+*** Message Type: info ***
+When: Sat Feb 24 04:34:57 PM +07 2024
+Create console window: "Console"
+ 
+*** Message Type: info ***
+When: Sat Feb 24 04:34:58 PM +07 2024
+Create utility window: "Properties"
+ 
+*** Message Type: info ***
+When: Sat Feb 24 04:35:52 PM +07 2024
+Create source window: "Source Browser 1"
+ 
+*** Message Type: info ***
+When: Sat Feb 24 04:36:02 PM +07 2024
+Connect to Simulator
+      Design: worklib.boundFlasher_tb:v
+   Languages: verilog
+   Simulator: Xcelium ppe
+     Version: TOOL:     ippe(64)        20.03-s010
+        User: cc02group5
+        Host: localhost
+Time Started: Sat Feb 24 04:36:01 PM +07 2024
+  Process ID: 10446
+   Directory: /data/vlsi2022/cc02group5/2153599/work/simulation_env
+     Command: /home/share_file/cadence/installs/XCELIUM2003/tools.lnx86/simvision/bin/64bit/ippe.exe -nocopyright -nowarn DLNOCL -cdslib /data/vlsi2022/cc02group5/2153599/work/simulation_env/./xcelium.d/run.lnx8664.20.03.d/cds.lib -snapshot worklib.boundFlasher_tb:v -64
+
+ 
+*** Message Type: info ***
+When: Sat Feb 24 04:36:03 PM +07 2024
+Exit Simulator: user
+ 
+*** Message Type: info ***
+When: Sat Feb 24 04:36:19 PM +07 2024
+Delete source window: "Source Browser 1"
+ 
+*** Message Type: info ***
+When: Sat Feb 24 04:36:22 PM +07 2024
+Create source window: "Source Browser 2"
+ 
+*** Message Type: info ***
+When: Sat Feb 24 04:37:15 PM +07 2024
+Delete waveform window: "Waveform 1"
+ 
+*** Message Type: error ***
+When: Sat Feb 24 04:37:21 PM +07 2024
+invalid command name "::timeaxis0"
+    while executing
+"$_timeaxis convert t2exp $time"
+    (method "::WaveWindow::seeTime" body line 2)
+    invoked from within
+"seeTime [$itk_option(-markerdata) marker cget  $itk_option(-markerprimary) -time]"
+    (method "::WaveWindow::_doGotoCause" body line 59)
+    invoked from within
+"_doGotoCause $cnode"
+    ("@goto-cause" arm line 2)
+    invoked from within
+"switch -glob -- $dclickpref {
+       @no-action {
+               # Do nothing
+       }
+            @goto-cause {
+                _doGotoCause $cnode
+            }
+           ..."
+    (method "::WaveWindow::_moveCursor" body line 337)
+    invoked from within
+"::.waveWindow0 _moveCursor cursor 545 369 -double"
+    (in namespace inscope "::WaveWindow" script line 1)
+    invoked from within
+"namespace inscope ::WaveWindow {::.waveWindow0 _moveCursor cursor 545 369 -double}"
+    (command bound to event)
+ 
+*** Message Type: error ***
+When: Sat Feb 24 04:37:21 PM +07 2024
+invalid command name "::timeaxis0"
+    while executing
+"$_timeaxis convert t2exp $time"
+    (method "::WaveWindow::seeTime" body line 2)
+    invoked from within
+"seeTime [$itk_option(-markerdata) marker cget  $itk_option(-markerprimary) -time]"
+    (method "::WaveWindow::_doGotoCause" body line 59)
+    invoked from within
+"_doGotoCause $cnode"
+    ("@goto-cause" arm line 2)
+    invoked from within
+"switch -glob -- $dclickpref {
+       @no-action {
+               # Do nothing
+       }
+            @goto-cause {
+                _doGotoCause $cnode
+            }
+           ..."
+    (method "::WaveWindow::_moveCursor" body line 337)
+    invoked from within
+"::.waveWindow0 _moveCursor cursor 545 369 -double"
+    (in namespace inscope "::WaveWindow" script line 1)
+    invoked from within
+"namespace inscope ::WaveWindow {::.waveWindow0 _moveCursor cursor 545 369 -double}"
+    (command bound to event)
+ 
+*** Message Type: error ***
+When: Sat Feb 24 04:37:21 PM +07 2024
+invalid command name "::timeaxis0"
+    while executing
+"$_timeaxis convert t2exp $time"
+    (method "::WaveWindow::seeTime" body line 2)
+    invoked from within
+"seeTime [$itk_option(-markerdata) marker cget  $itk_option(-markerprimary) -time]"
+    (method "::WaveWindow::_doGotoCause" body line 59)
+    invoked from within
+"_doGotoCause $cnode"
+    ("@goto-cause" arm line 2)
+    invoked from within
+"switch -glob -- $dclickpref {
+       @no-action {
+               # Do nothing
+       }
+            @goto-cause {
+                _doGotoCause $cnode
+            }
+           ..."
+    (method "::WaveWindow::_moveCursor" body line 337)
+    invoked from within
+"::.waveWindow0 _moveCursor cursor 545 369 -double"
+    (in namespace inscope "::WaveWindow" script line 1)
+    invoked from within
+"namespace inscope ::WaveWindow {::.waveWindow0 _moveCursor cursor 545 369 -double}"
+    (command bound to event)
+ 
+*** Message Type: error ***
+When: Sat Feb 24 04:37:21 PM +07 2024
+invalid command name "::timeaxis0"
+    while executing
+"$_timeaxis convert t2exp $time"
+    (method "::WaveWindow::seeTime" body line 2)
+    invoked from within
+"seeTime [$itk_option(-markerdata) marker cget  $itk_option(-markerprimary) -time]"
+    (method "::WaveWindow::_doGotoCause" body line 59)
+    invoked from within
+"_doGotoCause $cnode"
+    ("@goto-cause" arm line 2)
+    invoked from within
+"switch -glob -- $dclickpref {
+       @no-action {
+               # Do nothing
+       }
+            @goto-cause {
+                _doGotoCause $cnode
+            }
+           ..."
+    (method "::WaveWindow::_moveCursor" body line 337)
+    invoked from within
+"::.waveWindow0 _moveCursor cursor 545 369 -double"
+    (in namespace inscope "::WaveWindow" script line 1)
+    invoked from within
+"namespace inscope ::WaveWindow {::.waveWindow0 _moveCursor cursor 545 369 -double}"
+    (command bound to event)
+ 
+*** Message Type: error ***
+When: Sat Feb 24 04:37:21 PM +07 2024
+invalid command name "::timeaxis0"
+    while executing
+"$_timeaxis convert t2exp $time"
+    (method "::WaveWindow::seeTime" body line 2)
+    invoked from within
+"seeTime [$itk_option(-markerdata) marker cget  $itk_option(-markerprimary) -time]"
+    (method "::WaveWindow::_doGotoCause" body line 59)
+    invoked from within
+"_doGotoCause $cnode"
+    ("@goto-cause" arm line 2)
+    invoked from within
+"switch -glob -- $dclickpref {
+       @no-action {
+               # Do nothing
+       }
+            @goto-cause {
+                _doGotoCause $cnode
+            }
+           ..."
+    (method "::WaveWindow::_moveCursor" body line 337)
+    invoked from within
+"::.waveWindow0 _moveCursor cursor 545 369 -double"
+    (in namespace inscope "::WaveWindow" script line 1)
+    invoked from within
+"namespace inscope ::WaveWindow {::.waveWindow0 _moveCursor cursor 545 369 -double}"
+    (command bound to event)
+ 
+*** Message Type: error ***
+When: Sat Feb 24 04:37:30 PM +07 2024
+invalid command name "::timeaxis0"
+    while executing
+"$_timeaxis convert t2exp $time"
+    (method "::WaveWindow::seeTime" body line 2)
+    invoked from within
+"seeTime [$itk_option(-markerdata) marker cget  $itk_option(-markerprimary) -time]"
+    (method "::WaveWindow::_doGotoCause" body line 59)
+    invoked from within
+"_doGotoCause $cnode"
+    ("@goto-cause" arm line 2)
+    invoked from within
+"switch -glob -- $dclickpref {
+       @no-action {
+               # Do nothing
+       }
+            @goto-cause {
+                _doGotoCause $cnode
+            }
+           ..."
+    (method "::WaveWindow::_moveCursor" body line 337)
+    invoked from within
+"::.waveWindow0 _moveCursor cursor 545 41 -double"
+    (in namespace inscope "::WaveWindow" script line 1)
+    invoked from within
+"namespace inscope ::WaveWindow {::.waveWindow0 _moveCursor cursor 545 41 -double}"
+    (command bound to event)
+ 
+*** Message Type: error ***
+When: Sat Feb 24 04:37:30 PM +07 2024
+invalid command name "::timeaxis0"
+    while executing
+"$_timeaxis convert t2exp $time"
+    (method "::WaveWindow::seeTime" body line 2)
+    invoked from within
+"seeTime [$itk_option(-markerdata) marker cget  $itk_option(-markerprimary) -time]"
+    (method "::WaveWindow::_doGotoCause" body line 59)
+    invoked from within
+"_doGotoCause $cnode"
+    ("@goto-cause" arm line 2)
+    invoked from within
+"switch -glob -- $dclickpref {
+       @no-action {
+               # Do nothing
+       }
+            @goto-cause {
+                _doGotoCause $cnode
+            }
+           ..."
+    (method "::WaveWindow::_moveCursor" body line 337)
+    invoked from within
+"::.waveWindow0 _moveCursor cursor 545 41 -double"
+    (in namespace inscope "::WaveWindow" script line 1)
+    invoked from within
+"namespace inscope ::WaveWindow {::.waveWindow0 _moveCursor cursor 545 41 -double}"
+    (command bound to event)
+ 
+*** Message Type: error ***
+When: Sat Feb 24 04:37:30 PM +07 2024
+invalid command name "::timeaxis0"
+    while executing
+"$_timeaxis convert t2exp $time"
+    (method "::WaveWindow::seeTime" body line 2)
+    invoked from within
+"seeTime [$itk_option(-markerdata) marker cget  $itk_option(-markerprimary) -time]"
+    (method "::WaveWindow::_doGotoCause" body line 59)
+    invoked from within
+"_doGotoCause $cnode"
+    ("@goto-cause" arm line 2)
+    invoked from within
+"switch -glob -- $dclickpref {
+       @no-action {
+               # Do nothing
+       }
+            @goto-cause {
+                _doGotoCause $cnode
+            }
+           ..."
+    (method "::WaveWindow::_moveCursor" body line 337)
+    invoked from within
+"::.waveWindow0 _moveCursor cursor 545 41 -double"
+    (in namespace inscope "::WaveWindow" script line 1)
+    invoked from within
+"namespace inscope ::WaveWindow {::.waveWindow0 _moveCursor cursor 545 41 -double}"
+    (command bound to event)
+ 
+*** Message Type: error ***
+When: Sat Feb 24 04:37:31 PM +07 2024
+invalid command name "::timeaxis0"
+    while executing
+"$_timeaxis convert t2exp $time"
+    (method "::WaveWindow::seeTime" body line 2)
+    invoked from within
+"seeTime [$itk_option(-markerdata) marker cget  $itk_option(-markerprimary) -time]"
+    (method "::WaveWindow::_doGotoCause" body line 59)
+    invoked from within
+"_doGotoCause $cnode"
+    ("@goto-cause" arm line 2)
+    invoked from within
+"switch -glob -- $dclickpref {
+       @no-action {
+               # Do nothing
+       }
+            @goto-cause {
+                _doGotoCause $cnode
+            }
+           ..."
+    (method "::WaveWindow::_moveCursor" body line 337)
+    invoked from within
+"::.waveWindow0 _moveCursor cursor 545 41 -double"
+    (in namespace inscope "::WaveWindow" script line 1)
+    invoked from within
+"namespace inscope ::WaveWindow {::.waveWindow0 _moveCursor cursor 545 41 -double}"
+    (command bound to event)
+ 
+*** Message Type: error ***
+When: Sat Feb 24 04:37:31 PM +07 2024
+invalid command name "::timeaxis0"
+    while executing
+"$_timeaxis convert t2exp $time"
+    (method "::WaveWindow::seeTime" body line 2)
+    invoked from within
+"seeTime [$itk_option(-markerdata) marker cget  $itk_option(-markerprimary) -time]"
+    (method "::WaveWindow::_doGotoCause" body line 59)
+    invoked from within
+"_doGotoCause $cnode"
+    ("@goto-cause" arm line 2)
+    invoked from within
+"switch -glob -- $dclickpref {
+       @no-action {
+               # Do nothing
+       }
+            @goto-cause {
+                _doGotoCause $cnode
+            }
+           ..."
+    (method "::WaveWindow::_moveCursor" body line 337)
+    invoked from within
+"::.waveWindow0 _moveCursor cursor 545 41 -double"
+    (in namespace inscope "::WaveWindow" script line 1)
+    invoked from within
+"namespace inscope ::WaveWindow {::.waveWindow0 _moveCursor cursor 545 41 -double}"
+    (command bound to event)
+ 
+*** Message Type: info ***
+When: Sat Feb 24 04:37:31 PM +07 2024
+Delete source window: "Source Browser 2"
+ 
+*** Message Type: error ***
+When: Sat Feb 24 04:37:34 PM +07 2024
+invalid command name ".srcBrowser1"
+    while executing
+"$srcb traceSignal driver $traceH"
+    (object "::windows" method "::Windows::showsource" body line 74)
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "util::doCause" line 1)
+    invoked from within
+"util::doCause $hndl -time $time -marker $itk_option(-markerprimary)"
+    (method "::WaveWindow::_doGotoCause" body line 54)
+    invoked from within
+"_doGotoCause $cnode"
+    ("@goto-cause" arm line 2)
+    invoked from within
+"switch -glob -- $dclickpref {
+            @no-action {
+               # Do nothing
+       }
+            @goto-cause {
+                _doGotoCause $cnode
+            }
+           ..."
+    (method "::WaveWindow::_moveCursor" body line 337)
+    invoked from within
+"::.waveWindow0 _moveCursor cursor 545 41 -double"
+    (in namespace inscope "::WaveWindow" script line 1)
+    invoked from within
+"namespace inscope ::WaveWindow {::.waveWindow0 _moveCursor cursor 545 41 -double}"
+    (command bound to event)
+ 
+*** Message Type: error ***
+When: Sat Feb 24 04:37:34 PM +07 2024
+invalid command name ".srcBrowser1"
+    while executing
+"$srcb traceSignal driver $traceH"
+    (object "::windows" method "::Windows::showsource" body line 74)
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "util::doCause" line 1)
+    invoked from within
+"util::doCause $hndl -time $time -marker $itk_option(-markerprimary)"
+    (method "::WaveWindow::_doGotoCause" body line 54)
+    invoked from within
+"_doGotoCause $cnode"
+    ("@goto-cause" arm line 2)
+    invoked from within
+"switch -glob -- $dclickpref {
+            @no-action {
+               # Do nothing
+       }
+            @goto-cause {
+                _doGotoCause $cnode
+            }
+           ..."
+    (method "::WaveWindow::_moveCursor" body line 337)
+    invoked from within
+"::.waveWindow0 _moveCursor cursor 545 41 -double"
+    (in namespace inscope "::WaveWindow" script line 1)
+    invoked from within
+"namespace inscope ::WaveWindow {::.waveWindow0 _moveCursor cursor 545 41 -double}"
+    (command bound to event)
+ 
+*** Message Type: error ***
+When: Sat Feb 24 04:37:34 PM +07 2024
+invalid command name ".srcBrowser1"
+    while executing
+"$srcb traceSignal driver $traceH"
+    (object "::windows" method "::Windows::showsource" body line 74)
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "util::doCause" line 1)
+    invoked from within
+"util::doCause $hndl -time $time -marker $itk_option(-markerprimary)"
+    (method "::WaveWindow::_doGotoCause" body line 54)
+    invoked from within
+"_doGotoCause $cnode"
+    ("@goto-cause" arm line 2)
+    invoked from within
+"switch -glob -- $dclickpref {
+            @no-action {
+               # Do nothing
+       }
+            @goto-cause {
+                _doGotoCause $cnode
+            }
+           ..."
+    (method "::WaveWindow::_moveCursor" body line 337)
+    invoked from within
+"::.waveWindow0 _moveCursor cursor 545 41 -double"
+    (in namespace inscope "::WaveWindow" script line 1)
+    invoked from within
+"namespace inscope ::WaveWindow {::.waveWindow0 _moveCursor cursor 545 41 -double}"
+    (command bound to event)
+ 
+*** Message Type: error ***
+When: Sat Feb 24 04:37:34 PM +07 2024
+invalid command name ".srcBrowser1"
+    while executing
+"$srcb traceSignal driver $traceH"
+    (object "::windows" method "::Windows::showsource" body line 74)
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "util::doCause" line 1)
+    invoked from within
+"util::doCause $hndl -time $time -marker $itk_option(-markerprimary)"
+    (method "::WaveWindow::_doGotoCause" body line 54)
+    invoked from within
+"_doGotoCause $cnode"
+    ("@goto-cause" arm line 2)
+    invoked from within
+"switch -glob -- $dclickpref {
+            @no-action {
+               # Do nothing
+       }
+            @goto-cause {
+                _doGotoCause $cnode
+            }
+           ..."
+    (method "::WaveWindow::_moveCursor" body line 337)
+    invoked from within
+"::.waveWindow0 _moveCursor cursor 545 41 -double"
+    (in namespace inscope "::WaveWindow" script line 1)
+    invoked from within
+"namespace inscope ::WaveWindow {::.waveWindow0 _moveCursor cursor 545 41 -double}"
+    (command bound to event)
+ 
+*** Message Type: error ***
+When: Sat Feb 24 04:37:34 PM +07 2024
+invalid command name ".srcBrowser1"
+    while executing
+"$srcb traceSignal driver $traceH"
+    (object "::windows" method "::Windows::showsource" body line 74)
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "util::doCause" line 1)
+    invoked from within
+"util::doCause $hndl -time $time -marker $itk_option(-markerprimary)"
+    (method "::WaveWindow::_doGotoCause" body line 54)
+    invoked from within
+"_doGotoCause $cnode"
+    ("@goto-cause" arm line 2)
+    invoked from within
+"switch -glob -- $dclickpref {
+            @no-action {
+               # Do nothing
+       }
+            @goto-cause {
+                _doGotoCause $cnode
+            }
+           ..."
+    (method "::WaveWindow::_moveCursor" body line 337)
+    invoked from within
+"::.waveWindow0 _moveCursor cursor 351 42 -double"
+    (in namespace inscope "::WaveWindow" script line 1)
+    invoked from within
+"namespace inscope ::WaveWindow {::.waveWindow0 _moveCursor cursor 351 42 -double}"
+    (command bound to event)
+ 
+*** Message Type: error ***
+When: Sat Feb 24 04:37:36 PM +07 2024
+invalid command name ".srcBrowser1"
+    while executing
+"$srcb traceSignal driver $traceH"
+    (object "::windows" method "::Windows::showsource" body line 74)
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "util::doCause" line 1)
+    invoked from within
+"util::doCause $hndl -time $time -marker $itk_option(-markerprimary)"
+    (method "::WaveWindow::_doGotoCause" body line 54)
+    invoked from within
+"_doGotoCause $cnode"
+    ("@goto-cause" arm line 2)
+    invoked from within
+"switch -glob -- $dclickpref {
+            @no-action {
+               # Do nothing
+       }
+            @goto-cause {
+                _doGotoCause $cnode
+            }
+           ..."
+    (method "::WaveWindow::_moveCursor" body line 337)
+    invoked from within
+"::.waveWindow0 _moveCursor cursor 349 39 -double"
+    (in namespace inscope "::WaveWindow" script line 1)
+    invoked from within
+"namespace inscope ::WaveWindow {::.waveWindow0 _moveCursor cursor 349 39 -double}"
+    (command bound to event)
+ 
+*** Message Type: error ***
+When: Sat Feb 24 04:37:36 PM +07 2024
+invalid command name ".srcBrowser1"
+    while executing
+"$srcb traceSignal driver $traceH"
+    (object "::windows" method "::Windows::showsource" body line 74)
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "util::doCause" line 1)
+    invoked from within
+"util::doCause $hndl -time $time -marker $itk_option(-markerprimary)"
+    (method "::WaveWindow::_doGotoCause" body line 54)
+    invoked from within
+"_doGotoCause $cnode"
+    ("@goto-cause" arm line 2)
+    invoked from within
+"switch -glob -- $dclickpref {
+            @no-action {
+               # Do nothing
+       }
+            @goto-cause {
+                _doGotoCause $cnode
+            }
+           ..."
+    (method "::WaveWindow::_moveCursor" body line 337)
+    invoked from within
+"::.waveWindow0 _moveCursor cursor 344 39 -double"
+    (in namespace inscope "::WaveWindow" script line 1)
+    invoked from within
+"namespace inscope ::WaveWindow {::.waveWindow0 _moveCursor cursor 344 39 -double}"
+    (command bound to event)
+ 
+*** Message Type: error ***
+When: Sat Feb 24 04:37:36 PM +07 2024
+invalid command name ".srcBrowser1"
+    while executing
+"$srcb traceSignal driver $traceH"
+    (object "::windows" method "::Windows::showsource" body line 74)
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "util::doCause" line 1)
+    invoked from within
+"util::doCause $hndl -time $time -marker $itk_option(-markerprimary)"
+    (method "::WaveWindow::_doGotoCause" body line 54)
+    invoked from within
+"_doGotoCause $cnode"
+    ("@goto-cause" arm line 2)
+    invoked from within
+"switch -glob -- $dclickpref {
+            @no-action {
+               # Do nothing
+       }
+            @goto-cause {
+                _doGotoCause $cnode
+            }
+           ..."
+    (method "::WaveWindow::_moveCursor" body line 337)
+    invoked from within
+"::.waveWindow0 _moveCursor cursor 344 39 -double"
+    (in namespace inscope "::WaveWindow" script line 1)
+    invoked from within
+"namespace inscope ::WaveWindow {::.waveWindow0 _moveCursor cursor 344 39 -double}"
+    (command bound to event)
+ 
+*** Message Type: error ***
+When: Sat Feb 24 04:37:36 PM +07 2024
+invalid command name ".srcBrowser1"
+    while executing
+"$srcb traceSignal driver $traceH"
+    (object "::windows" method "::Windows::showsource" body line 74)
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "util::doCause" line 1)
+    invoked from within
+"util::doCause $hndl -time $time -marker $itk_option(-markerprimary)"
+    (method "::WaveWindow::_doGotoCause" body line 54)
+    invoked from within
+"_doGotoCause $cnode"
+    ("@goto-cause" arm line 2)
+    invoked from within
+"switch -glob -- $dclickpref {
+            @no-action {
+               # Do nothing
+       }
+            @goto-cause {
+                _doGotoCause $cnode
+            }
+           ..."
+    (method "::WaveWindow::_moveCursor" body line 337)
+    invoked from within
+"::.waveWindow0 _moveCursor cursor 344 39 -double"
+    (in namespace inscope "::WaveWindow" script line 1)
+    invoked from within
+"namespace inscope ::WaveWindow {::.waveWindow0 _moveCursor cursor 344 39 -double}"
+    (command bound to event)
+ 
+*** Message Type: error ***
+When: Sat Feb 24 04:37:36 PM +07 2024
+invalid command name ".srcBrowser1"
+    while executing
+"$srcb traceSignal driver $traceH"
+    (object "::windows" method "::Windows::showsource" body line 74)
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "util::doCause" line 1)
+    invoked from within
+"util::doCause $hndl -time $time -marker $itk_option(-markerprimary)"
+    (method "::WaveWindow::_doGotoCause" body line 54)
+    invoked from within
+"_doGotoCause $cnode"
+    ("@goto-cause" arm line 2)
+    invoked from within
+"switch -glob -- $dclickpref {
+            @no-action {
+               # Do nothing
+       }
+            @goto-cause {
+                _doGotoCause $cnode
+            }
+           ..."
+    (method "::WaveWindow::_moveCursor" body line 337)
+    invoked from within
+"::.waveWindow0 _moveCursor cursor 344 39 -double"
+    (in namespace inscope "::WaveWindow" script line 1)
+    invoked from within
+"namespace inscope ::WaveWindow {::.waveWindow0 _moveCursor cursor 344 39 -double}"
+    (command bound to event)
+ 
+*** Message Type: error ***
+When: Sat Feb 24 04:37:37 PM +07 2024
+invalid command name ".srcBrowser1"
+    while executing
+"$srcb traceSignal driver $traceH"
+    (object "::windows" method "::Windows::showsource" body line 74)
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "util::doCause" line 1)
+    invoked from within
+"util::doCause $hndl -time $time -marker $itk_option(-markerprimary)"
+    (method "::WaveWindow::_doGotoCause" body line 54)
+    invoked from within
+"_doGotoCause $cnode"
+    ("@goto-cause" arm line 2)
+    invoked from within
+"switch -glob -- $dclickpref {
+            @no-action {
+               # Do nothing
+       }
+            @goto-cause {
+                _doGotoCause $cnode
+            }
+           ..."
+    (method "::WaveWindow::_moveCursor" body line 337)
+    invoked from within
+"::.waveWindow0 _moveCursor cursor 344 39 -double"
+    (in namespace inscope "::WaveWindow" script line 1)
+    invoked from within
+"namespace inscope ::WaveWindow {::.waveWindow0 _moveCursor cursor 344 39 -double}"
+    (command bound to event)
+ 
+*** Message Type: error ***
+When: Sat Feb 24 04:37:37 PM +07 2024
+invalid command name ".srcBrowser1"
+    while executing
+"$srcb traceSignal driver $traceH"
+    (object "::windows" method "::Windows::showsource" body line 74)
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "util::doCause" line 1)
+    invoked from within
+"util::doCause $hndl -time $time -marker $itk_option(-markerprimary)"
+    (method "::WaveWindow::_doGotoCause" body line 54)
+    invoked from within
+"_doGotoCause $cnode"
+    ("@goto-cause" arm line 2)
+    invoked from within
+"switch -glob -- $dclickpref {
+            @no-action {
+               # Do nothing
+       }
+            @goto-cause {
+                _doGotoCause $cnode
+            }
+           ..."
+    (method "::WaveWindow::_moveCursor" body line 337)
+    invoked from within
+"::.waveWindow0 _moveCursor cursor 344 39 -double"
+    (in namespace inscope "::WaveWindow" script line 1)
+    invoked from within
+"namespace inscope ::WaveWindow {::.waveWindow0 _moveCursor cursor 344 39 -double}"
+    (command bound to event)
+ 
+*** Message Type: error ***
+When: Sat Feb 24 04:37:37 PM +07 2024
+invalid command name ".srcBrowser1"
+    while executing
+"$srcb traceSignal driver $traceH"
+    (object "::windows" method "::Windows::showsource" body line 74)
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "util::doCause" line 1)
+    invoked from within
+"util::doCause $hndl -time $time -marker $itk_option(-markerprimary)"
+    (method "::WaveWindow::_doGotoCause" body line 54)
+    invoked from within
+"_doGotoCause $cnode"
+    ("@goto-cause" arm line 2)
+    invoked from within
+"switch -glob -- $dclickpref {
+            @no-action {
+               # Do nothing
+       }
+            @goto-cause {
+                _doGotoCause $cnode
+            }
+           ..."
+    (method "::WaveWindow::_moveCursor" body line 337)
+    invoked from within
+"::.waveWindow0 _moveCursor cursor 344 39 -double"
+    (in namespace inscope "::WaveWindow" script line 1)
+    invoked from within
+"namespace inscope ::WaveWindow {::.waveWindow0 _moveCursor cursor 344 39 -double}"
+    (command bound to event)
+ 
+*** Message Type: error ***
+When: Sat Feb 24 04:37:37 PM +07 2024
+invalid command name ".srcBrowser1"
+    while executing
+"$srcb traceSignal driver $traceH"
+    (object "::windows" method "::Windows::showsource" body line 74)
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "util::doCause" line 1)
+    invoked from within
+"util::doCause $hndl -time $time -marker $itk_option(-markerprimary)"
+    (method "::WaveWindow::_doGotoCause" body line 54)
+    invoked from within
+"_doGotoCause $cnode"
+    ("@goto-cause" arm line 2)
+    invoked from within
+"switch -glob -- $dclickpref {
+            @no-action {
+               # Do nothing
+       }
+            @goto-cause {
+                _doGotoCause $cnode
+            }
+           ..."
+    (method "::WaveWindow::_moveCursor" body line 337)
+    invoked from within
+"::.waveWindow0 _moveCursor cursor 349 42 -double"
+    (in namespace inscope "::WaveWindow" script line 1)
+    invoked from within
+"namespace inscope ::WaveWindow {::.waveWindow0 _moveCursor cursor 349 42 -double}"
+    (command bound to event)
+ 
+*** Message Type: error ***
+When: Sat Feb 24 04:37:37 PM +07 2024
+invalid command name ".srcBrowser1"
+    while executing
+"$srcb traceSignal driver $traceH"
+    (object "::windows" method "::Windows::showsource" body line 74)
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "util::doCause" line 1)
+    invoked from within
+"util::doCause $hndl -time $time -marker $itk_option(-markerprimary)"
+    (method "::WaveWindow::_doGotoCause" body line 54)
+    invoked from within
+"_doGotoCause $cnode"
+    ("@goto-cause" arm line 2)
+    invoked from within
+"switch -glob -- $dclickpref {
+            @no-action {
+               # Do nothing
+       }
+            @goto-cause {
+                _doGotoCause $cnode
+            }
+           ..."
+    (method "::WaveWindow::_moveCursor" body line 337)
+    invoked from within
+"::.waveWindow0 _moveCursor cursor 349 42 -double"
+    (in namespace inscope "::WaveWindow" script line 1)
+    invoked from within
+"namespace inscope ::WaveWindow {::.waveWindow0 _moveCursor cursor 349 42 -double}"
+    (command bound to event)
+ 
+*** Message Type: error ***
+When: Sat Feb 24 04:37:38 PM +07 2024
+invalid command name ".srcBrowser1"
+    while executing
+"$srcb traceSignal driver $traceH"
+    (object "::windows" method "::Windows::showsource" body line 74)
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "util::doCause" line 1)
+    invoked from within
+"util::doCause $hndl -time $time -marker $itk_option(-markerprimary)"
+    (method "::WaveWindow::_doGotoCause" body line 54)
+    invoked from within
+"_doGotoCause $cnode"
+    ("@goto-cause" arm line 2)
+    invoked from within
+"switch -glob -- $dclickpref {
+            @no-action {
+               # Do nothing
+       }
+            @goto-cause {
+                _doGotoCause $cnode
+            }
+           ..."
+    (method "::WaveWindow::_moveCursor" body line 337)
+    invoked from within
+"::.waveWindow0 _moveCursor cursor 349 42 -double"
+    (in namespace inscope "::WaveWindow" script line 1)
+    invoked from within
+"namespace inscope ::WaveWindow {::.waveWindow0 _moveCursor cursor 349 42 -double}"
+    (command bound to event)
+ 
+*** Message Type: error ***
+When: Sat Feb 24 04:37:38 PM +07 2024
+invalid command name ".srcBrowser1"
+    while executing
+"$srcb traceSignal driver $traceH"
+    (object "::windows" method "::Windows::showsource" body line 74)
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "util::doCause" line 1)
+    invoked from within
+"util::doCause $hndl -time $time -marker $itk_option(-markerprimary)"
+    (method "::WaveWindow::_doGotoCause" body line 54)
+    invoked from within
+"_doGotoCause $cnode"
+    ("@goto-cause" arm line 2)
+    invoked from within
+"switch -glob -- $dclickpref {
+            @no-action {
+               # Do nothing
+       }
+            @goto-cause {
+                _doGotoCause $cnode
+            }
+           ..."
+    (method "::WaveWindow::_moveCursor" body line 337)
+    invoked from within
+"::.waveWindow0 _moveCursor cursor 345 39 -double"
+    (in namespace inscope "::WaveWindow" script line 1)
+    invoked from within
+"namespace inscope ::WaveWindow {::.waveWindow0 _moveCursor cursor 345 39 -double}"
+    (command bound to event)
+ 
+*** Message Type: error ***
+When: Sat Feb 24 04:37:38 PM +07 2024
+invalid command name ".srcBrowser1"
+    while executing
+"$srcb traceSignal driver $traceH"
+    (object "::windows" method "::Windows::showsource" body line 74)
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "util::doCause" line 1)
+    invoked from within
+"util::doCause $hndl -time $time -marker $itk_option(-markerprimary)"
+    (method "::WaveWindow::_doGotoCause" body line 54)
+    invoked from within
+"_doGotoCause $cnode"
+    ("@goto-cause" arm line 2)
+    invoked from within
+"switch -glob -- $dclickpref {
+            @no-action {
+               # Do nothing
+       }
+            @goto-cause {
+                _doGotoCause $cnode
+            }
+           ..."
+    (method "::WaveWindow::_moveCursor" body line 337)
+    invoked from within
+"::.waveWindow0 _moveCursor cursor 345 39 -double"
+    (in namespace inscope "::WaveWindow" script line 1)
+    invoked from within
+"namespace inscope ::WaveWindow {::.waveWindow0 _moveCursor cursor 345 39 -double}"
+    (command bound to event)
+ 
+*** Message Type: error ***
+When: Sat Feb 24 04:37:38 PM +07 2024
+invalid command name ".srcBrowser1"
+    while executing
+"$srcb traceSignal driver $traceH"
+    (object "::windows" method "::Windows::showsource" body line 74)
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "util::doCause" line 1)
+    invoked from within
+"util::doCause $hndl -time $time -marker $itk_option(-markerprimary)"
+    (method "::WaveWindow::_doGotoCause" body line 54)
+    invoked from within
+"_doGotoCause $cnode"
+    ("@goto-cause" arm line 2)
+    invoked from within
+"switch -glob -- $dclickpref {
+            @no-action {
+               # Do nothing
+       }
+            @goto-cause {
+                _doGotoCause $cnode
+            }
+           ..."
+    (method "::WaveWindow::_moveCursor" body line 337)
+    invoked from within
+"::.waveWindow0 _moveCursor cursor 340 62 -double"
+    (in namespace inscope "::WaveWindow" script line 1)
+    invoked from within
+"namespace inscope ::WaveWindow {::.waveWindow0 _moveCursor cursor 340 62 -double}"
+    (command bound to event)
+ 
+*** Message Type: error ***
+When: Sat Feb 24 04:37:38 PM +07 2024
+invalid command name ".srcBrowser1"
+    while executing
+"$srcb traceSignal driver $traceH"
+    (object "::windows" method "::Windows::showsource" body line 74)
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "util::doCause" line 1)
+    invoked from within
+"util::doCause $hndl -time $time -marker $itk_option(-markerprimary)"
+    (method "::WaveWindow::_doGotoCause" body line 54)
+    invoked from within
+"_doGotoCause $cnode"
+    ("@goto-cause" arm line 2)
+    invoked from within
+"switch -glob -- $dclickpref {
+            @no-action {
+               # Do nothing
+       }
+            @goto-cause {
+                _doGotoCause $cnode
+            }
+           ..."
+    (method "::WaveWindow::_moveCursor" body line 337)
+    invoked from within
+"::.waveWindow0 _moveCursor cursor 337 8 -double"
+    (in namespace inscope "::WaveWindow" script line 1)
+    invoked from within
+"namespace inscope ::WaveWindow {::.waveWindow0 _moveCursor cursor 337 8 -double}"
+    (command bound to event)
+ 
+*** Message Type: error ***
+When: Sat Feb 24 04:37:38 PM +07 2024
+invalid command name ".srcBrowser1"
+    while executing
+"$srcb traceSignal driver $traceH"
+    (object "::windows" method "::Windows::showsource" body line 74)
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "util::doCause" line 1)
+    invoked from within
+"util::doCause $hndl -time $time -marker $itk_option(-markerprimary)"
+    (method "::WaveWindow::_doGotoCause" body line 54)
+    invoked from within
+"_doGotoCause $cnode"
+    ("@goto-cause" arm line 2)
+    invoked from within
+"switch -glob -- $dclickpref {
+            @no-action {
+               # Do nothing
+       }
+            @goto-cause {
+                _doGotoCause $cnode
+            }
+           ..."
+    (method "::WaveWindow::_moveCursor" body line 337)
+    invoked from within
+"::.waveWindow0 _moveCursor cursor 339 273 -double"
+    (in namespace inscope "::WaveWindow" script line 1)
+    invoked from within
+"namespace inscope ::WaveWindow {::.waveWindow0 _moveCursor cursor 339 273 -double}"
+    (command bound to event)
+ 
+*** Message Type: error ***
+When: Sat Feb 24 04:37:38 PM +07 2024
+invalid command name ".srcBrowser1"
+    while executing
+"$srcb traceSignal driver $traceH"
+    (object "::windows" method "::Windows::showsource" body line 74)
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "util::doCause" line 1)
+    invoked from within
+"util::doCause $hndl -time $time -marker $itk_option(-markerprimary)"
+    (method "::WaveWindow::_doGotoCause" body line 54)
+    invoked from within
+"_doGotoCause $cnode"
+    ("@goto-cause" arm line 2)
+    invoked from within
+"switch -glob -- $dclickpref {
+            @no-action {
+               # Do nothing
+       }
+            @goto-cause {
+                _doGotoCause $cnode
+            }
+           ..."
+    (method "::WaveWindow::_moveCursor" body line 337)
+    invoked from within
+"::.waveWindow0 _moveCursor cursor 339 273 -double"
+    (in namespace inscope "::WaveWindow" script line 1)
+    invoked from within
+"namespace inscope ::WaveWindow {::.waveWindow0 _moveCursor cursor 339 273 -double}"
+    (command bound to event)
+ 
+*** Message Type: error ***
+When: Sat Feb 24 04:37:38 PM +07 2024
+invalid command name ".srcBrowser1"
+    while executing
+"$srcb traceSignal driver $traceH"
+    (object "::windows" method "::Windows::showsource" body line 74)
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "util::doCause" line 1)
+    invoked from within
+"util::doCause $hndl -time $time -marker $itk_option(-markerprimary)"
+    (method "::WaveWindow::_doGotoCause" body line 54)
+    invoked from within
+"_doGotoCause $cnode"
+    ("@goto-cause" arm line 2)
+    invoked from within
+"switch -glob -- $dclickpref {
+            @no-action {
+               # Do nothing
+       }
+            @goto-cause {
+                _doGotoCause $cnode
+            }
+           ..."
+    (method "::WaveWindow::_moveCursor" body line 337)
+    invoked from within
+"::.waveWindow0 _moveCursor cursor 339 273 -double"
+    (in namespace inscope "::WaveWindow" script line 1)
+    invoked from within
+"namespace inscope ::WaveWindow {::.waveWindow0 _moveCursor cursor 339 273 -double}"
+    (command bound to event)
+ 
+*** Message Type: error ***
+When: Sat Feb 24 04:37:38 PM +07 2024
+invalid command name ".srcBrowser1"
+    while executing
+"$srcb traceSignal driver $traceH"
+    (object "::windows" method "::Windows::showsource" body line 74)
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "util::doCause" line 1)
+    invoked from within
+"util::doCause $hndl -time $time -marker $itk_option(-markerprimary)"
+    (method "::WaveWindow::_doGotoCause" body line 54)
+    invoked from within
+"_doGotoCause $cnode"
+    ("@goto-cause" arm line 2)
+    invoked from within
+"switch -glob -- $dclickpref {
+            @no-action {
+               # Do nothing
+       }
+            @goto-cause {
+                _doGotoCause $cnode
+            }
+           ..."
+    (method "::WaveWindow::_moveCursor" body line 337)
+    invoked from within
+"::.waveWindow0 _moveCursor cursor 339 273 -double"
+    (in namespace inscope "::WaveWindow" script line 1)
+    invoked from within
+"namespace inscope ::WaveWindow {::.waveWindow0 _moveCursor cursor 339 273 -double}"
+    (command bound to event)
+ 
+*** Message Type: error ***
+When: Sat Feb 24 04:37:38 PM +07 2024
+invalid command name ".srcBrowser1"
+    while executing
+"$srcb traceSignal driver $traceH"
+    (object "::windows" method "::Windows::showsource" body line 74)
+    invoked from within
+"# Compiled -- no source code available
+error "called a copy of a compiled script""
+    (procedure "util::doCause" line 1)
+    invoked from within
+"util::doCause $hndl -time $time -marker $itk_option(-markerprimary)"
+    (method "::WaveWindow::_doGotoCause" body line 54)
+    invoked from within
+"_doGotoCause $cnode"
+    ("@goto-cause" arm line 2)
+    invoked from within
+"switch -glob -- $dclickpref {
+            @no-action {
+               # Do nothing
+       }
+            @goto-cause {
+                _doGotoCause $cnode
+            }
+           ..."
+    (method "::WaveWindow::_moveCursor" body line 337)
+    invoked from within
+"::.waveWindow0 _moveCursor cursor 304 41 -double"
+    (in namespace inscope "::WaveWindow" script line 1)
+    invoked from within
+"namespace inscope ::WaveWindow {::.waveWindow0 _moveCursor cursor 304 41 -double}"
+    (command bound to event)
+ 

@@ -7,7 +7,7 @@
 +EMGRLOG
 run.log
 -XLSTIME
-1708768716
+1708682789
 -XLKEEP
 -XLMODE
 ./xcelium.d/run.lnx8664.20.03.d
@@ -20,3 +20,5 @@ run.log
 xrun
 -XLVERSION
 "TOOL:	xrun(64)	20.03-s010"
+-XLNAME
+./xcelium.d/run.lnx8664.20.03.d/ktmt_25600
