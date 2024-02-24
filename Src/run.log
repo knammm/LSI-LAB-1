@@ -1,5 +1,5 @@
 xrun(64): 20.03-s010: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
-TOOL:	xrun(64)	20.03-s010: Started on Feb 23, 2024 at 15:24:15 +07
+TOOL:	xrun(64)	20.03-s010: Started on Feb 24, 2024 at 16:58:36 +07
 xrun
 	-access rw
 	-licqueue
@@ -8,8 +8,8 @@ xrun
 	bound_flasher.v
 	test_bench.v
 Recompiling... reason: file './test_bench.v' is newer than expected.
-	expected: Fri Feb 23 15:16:07 2024
-	actual:   Fri Feb 23 15:24:10 2024
+	expected: Sat Feb 24 16:54:27 2024
+	actual:   Sat Feb 24 16:58:31 2024
 file: test_bench.v
 	module worklib.boundFlasher_tb:v
 		errors: 0, warnings: 0
@@ -19,8 +19,8 @@ file: test_bench.v
 		boundFlasher_tb
 	Building instance overlay tables: .................... Done
 	Generating native compiled code:
-		worklib.boundFlasher_tb:v <0x031ed073>
-			streams:   5, words:  4766
+		worklib.boundFlasher_tb:v <0x52918840>
+			streams:   5, words:  5122
 	Building instance specific data structures.
 	Loading native compiled code:     .................... Done
 	Design hierarchy summary:
@@ -38,7 +38,7 @@ file: test_bench.v
 Loading snapshot worklib.boundFlasher_tb:v .................... Done
 xcelium> source /home/share_file/cadence/installs/XCELIUM2003/tools/xcelium/files/xmsimrc
 xcelium> run
-Simulation complete via $finish(1) at time 212100 NS + 0
-./test_bench.v:36         $finish;
+Simulation complete via $finish(1) at time 54893 NS + 0
+./test_bench.v:42         $finish;
 xcelium> exit
-TOOL:	xrun(64)	20.03-s010: Exiting on Feb 23, 2024 at 15:24:16 +07  (total: 00:00:01)
+TOOL:	xrun(64)	20.03-s010: Exiting on Feb 24, 2024 at 16:58:37 +07  (total: 00:00:01)
