@@ -21,27 +21,29 @@ module boundFlasher_tb;
         #4;
         flick = 0;
 
-        // Slide flick waveform test
-        @(UUT.state == 4) flick = 1;
-        #25;
-        @(UUT.state == 2) flick = 0;
+         // Slide flick waveform test
+         //@(UUT.state == 3) begin 
+	 //	#3500;
+	 //	flick = 1;
+	 //end
+         //@(UUT.state == 2) flick = 0;
 
         // Myself flick waveform test
-        // @(UUT.state == 4) flick = 1;
-        // #25;
-        // @(UUT.state == 2) flick = 0;
-        // #25;
-        // @(UUT.state == 6) flick = 1;
-        // #25;
-        // @(UUT.state == 5) flick = 0;
+        @(UUT.state == 5) flick = 1;
+        @(UUT.state == 4) flick = 0;
+        @(UUT.state == 5) begin
+		#2000; 
+		flick = 1;
+	end
+	@(UUT.state == 4) flick = 0;
 
         #40000;
 
         $finish;
     end
     initial begin
-            $recordfile ("waves");
-            $recordvars ("depth=0", boundFlasher_tb);
+        $recordfile ("waves");
+        $recordvars ("depth=0", boundFlasher_tb);
     end 
 
-endmodule 
+endmodule
