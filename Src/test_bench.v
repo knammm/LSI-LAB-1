@@ -1,11 +1,13 @@
 module boundFlasher_tb;
 	reg clk;
 	reg flick;
+	reg rst;
 	wire [15:0] lamps;
 	
 	boundFlasher UUT (
 		.clk(clk),
 		.flick(flick),
+		.rst(rst),
 		.lamps(lamps)
     );
     
@@ -37,7 +39,16 @@ module boundFlasher_tb;
 			flick = 1;
 		end
 		@(UUT.state == 4) flick = 0;
-
+		
+		// Rst signal test
+		#500
+		rst = 1;
+		#20;
+		rst = 0;
+		flick = 1;
+		#20;
+		flick = 0;
+		
 		#40000;
 
 		$finish;
